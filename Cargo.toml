@@ -1,0 +1,17 @@
+[package]
+name = "minicurl"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Lei.Zhao <oizhaolei@gmail.com<"]
+description = "mini curl"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.1.8", features = ["derive"] }
+futures = "0.3.21"
+reqwest = { version = "0.11.10", features = ["json", "blocking", "cookies"] }
+tokio = { version = "1.17.0", features = ["full" ] }

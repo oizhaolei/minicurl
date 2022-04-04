@@ -1,0 +1,5 @@
+# minicurl
+
+```
+minicurl [url]
+```
